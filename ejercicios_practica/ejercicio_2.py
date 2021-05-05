@@ -64,3 +64,34 @@ if lt1 > lt2:
 else:
     print ("La palabra {} es mas larga que la palabra {}".format(texto_2, texto_1))
 
+
+
+
+# Verifique si la primera letra de la primera palabra
+# es mayor a la primera letra de la segunda palabra
+# Imprima en pantalla según corresponda
+# (Se entiende como mayor alfabeticamente)
+
+if texto_1[0] > texto_2[0]:
+    print (texto_1, "(es mayor su primera letra que)", texto_2)
+else:
+    print (texto_2, "(es mayor su primera letra que)", texto_1)
+
+
+
+# Verifique que copia_texto_1 es igual a texto_1
+# Imprima en pantalla según corresponda
+
+# Verifique que copia_texto_1 es distinta a texto_2
+# Imprima en pantalla según corresponda
+
+if copia_texto_1 == texto_1:
+    print ("La copia es igual al original")
+else:
+    print ("Uy...")
+
+if copia_texto_1 == texto_2:
+    print("La copia de {} no es lo mismo que {}".format(texto_1,texto_2))
+else:
+    print("La copia de {} es lo mismo que {}".format(texto_1,texto_2))
+
