@@ -34,3 +34,33 @@ copia_texto_1 = texto_1  # Copia de la variable texto_1
 
 # Verifique que copia_texto_1 es distinta a texto_2
 # Imprima en pantalla según corresponda
+
+
+#  ------------------------
+#  |      ACA EMPIEZA     |
+#  ------------------------
+
+
+
+# Compare cual de las dos palabras es mayor (alfabéticamente)
+# Imprima en pantalla según corresponda
+if texto_1 > texto_2:
+    print ("La palabra {} es mayor alfabeticamente que la palabra {}".format(texto_1, texto_2))
+else:
+    print ("La palabra {} es mayor alfabeticamente que la palabra {}".format(texto_2, texto_1))
+
+
+
+
+# Compare cual de las dos palabras tiene mayor
+# cantidad de letras
+# Imprima en pantalla según corresponda
+lt1 = len(texto_1)
+
+lt2 = len(texto_2)
+
+if lt1 > lt2:
+    print ("La palabra {} es mas larga que la palabra {}".format(texto_1, texto_2))
+else:
+    print ("La palabra {} es mas larga que la palabra {}".format(texto_2, texto_1))
+
