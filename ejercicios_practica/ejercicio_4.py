@@ -28,3 +28,24 @@ texto_2 = '7'
 # Esta pregunta estará repetida en el Campus para que puedan
 # responder.
 # NOTA: La respuesta no se encuentra en el apunte, sino en Google ;)
+
+
+if texto_1 > texto_2:
+    print (texto_1, "es mayor que", texto_2)
+else:
+    print (texto_2, "es mayor que", texto_1)
+
+int(texto_1)
+int(texto_2)
+
+if texto_1 > texto_2:
+    print (texto_1, "es mayor que", texto_2)
+else:
+    print (texto_2, "es mayor que", texto_1)
+
+
+
+'''
+Segun mi busqueda de goolge (y ademas porque tiene sentido), pasa esto
+segun por el orden que cada caracter y numero toma en la tabla ascii
+'''
