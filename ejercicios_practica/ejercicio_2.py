@@ -91,7 +91,7 @@ else:
     print ("Uy...")
 
 if copia_texto_1 == texto_2:
-    print("La copia de {} no es lo mismo que {}".format(texto_1,texto_2))
-else:
     print("La copia de {} es lo mismo que {}".format(texto_1,texto_2))
+else:
+    print("La copia de {} no es lo mismo que {}".format(texto_1,texto_2))
 
