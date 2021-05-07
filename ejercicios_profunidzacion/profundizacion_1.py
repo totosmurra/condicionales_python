@@ -22,3 +22,16 @@ si el resultado es positivo, negativo o cero.
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+
+nmr1 = int(input())
+nmr2 = int(input())
+
+nmrf = nmr1 - nmr2
+
+if nmrf > 0:
+    print ("Resultado de la resta es positivo")
+elif nmrf == 0:
+    print ("Resultado de la resta es 0")
+else:
+    print ("Resultado de la resta es negativo")
+
