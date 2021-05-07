@@ -64,10 +64,10 @@ else:
     lenpal3 = int(len(palabra3))
     
     lenpals = [lenpal1, lenpal2, lenpal3]
-    lenpals.sort()
+    lenpals.sort(reverse = True)
     print (lenpals)
 
-    
+
 
 
 
